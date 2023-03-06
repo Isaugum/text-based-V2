@@ -4,9 +4,10 @@ This is a fun project built using ReactJS, typescript and Redux.
 
 ## What is it and what can you do?
 
-So far, the game is in development and there is no content included in this project - it is mostly a barebones, unfinished engine for the game.
-You can walk north and south - that's two whole locations. You can pick up keys and gold.
-There is a locked door implemented, as well as inventory state.
+So far, the game is in development and there  is no content included in this project - it is mostly a barebones, unfinished engine for the game.
+The plan is to make it an engine that you can feed appropriate JSON files into and would therefore support plenty of different games with different content.
+So far, the only locations are a room and halway. Inside the room, there is a table you can inspect, and on it, a letter you can pick up.
+In the hallways, there is a soldier you can talk to, whose dialogue will change if you have the letter with you.
 
 ## Dependencies and installation
 
