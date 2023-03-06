@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    color: white;
+    background-color: black;
+}
+
+@mixin flexBox($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+
+@mixin containerColumn {
+    @include flexBox(column, center, center);
+
+    height: 100vh;
+    width: 100%;
+}
