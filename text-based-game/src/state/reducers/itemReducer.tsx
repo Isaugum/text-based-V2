@@ -18,7 +18,7 @@ const ItemsState: Items = {
         name: "Table",
         key: "table",
         description: "A simple wooden table.",
-        locationDescription: "There is a simple wooden table inside.",
+        locationDescription: "There is a simple wooden table here.",
         contains: {
             "letter": 1001
         },
